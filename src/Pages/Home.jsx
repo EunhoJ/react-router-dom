@@ -1,8 +1,11 @@
+import { Header } from "../Components/Header";
+import { Nav } from "../Components/Nav";
 
 export function Home() {
   return (
     <>
-      <h1>Home</h1>
+      <Nav />
+      <Header />
     </>
   );
 }

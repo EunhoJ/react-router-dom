@@ -1,0 +1,23 @@
+nav {
+  padding: 0.8rem 4rem;
+  color: var(--text-default);
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  a {
+    color: var(--text-over-primary);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+}
